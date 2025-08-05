@@ -1,7 +1,6 @@
-```
 ### README.md
 
-Este é o repositório do site oficial da DeltaV, a primeira equipe de extensão universitária de drones de Pernambuco, vinculada à Escola Politécnica de Pernambuco (POLI/UPE).
+Este é o repositório do site oficial da DeltaV Drones (https://deltavquad.github.io), a primeira equipe de extensão universitária de drones de Pernambuco, vinculada à Escola Politécnica de Pernambuco (POLI/UPE)./
 
 O site foi construído utilizando a biblioteca React e segue uma estrutura de componentes para facilitar a manutenção e escalabilidade.
 
@@ -25,8 +24,8 @@ O projeto está organizado da seguinte forma:
     - `utils/`: Funções utilitárias e componentes auxiliares.
   - `assets/`: Imagens, ícones e outros arquivos de mídia.
 - `public/`: Arquivos estáticos como o `index.html`.
-- `psd/`: Arquivos editáveis em formato `.psd` (Adobe Photoshop) e um diagrama de fluxo em `.draw.io`.
-- `timeAPI/`: Um projeto separado, hospedado no Vercel, que oferece uma API para obter a hora exata do servidor.
+- `psd/`: Arquivos editáveis em formato `.psd` (Adobe Photoshop) e um fluxograma organizacional da equipe em `.draw.io`.
+- `timeAPI/`: Uma API para obter a hora exata de um servidor hospedado no Vercel, necessário para a funcionalidade de cronômetro.
 - `.gitignore`: Arquivos e pastas a serem ignorados pelo controle de versão Git.
 - `eslint.config.js`: Configuração do ESLint para padronização de código.
 - `package.json` e `package-lock.json`: Gerenciamento de dependências e scripts do projeto.
@@ -42,5 +41,3 @@ O projeto está organizado da seguinte forma:
 - **Vercel API**: Utilizada para fornecer a hora do servidor para a página de "Em Breve".
 - **Formspree**: Serviço para o formulário de contato.
 - **Google Analytics**: Ferramenta para monitoramento de tráfego.
-
-```
