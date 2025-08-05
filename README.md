@@ -11,7 +11,7 @@ O projeto está hospedado neste [repositório do GitHub](https://github.com/Delt
 ### Estrutura do Repositório
 
 O projeto está organizado da seguinte forma:
-
+```
 ├── src/                          # Código-fonte principal
 │   ├── components/               # Componentes React reutilizáveis
 │   │   ├── contact-page/         # Página de contato
@@ -33,7 +33,7 @@ O projeto está organizado da seguinte forma:
 ├── package.json                  # Dependências e scripts do projeto
 ├── vite.config.js                # Configuração do Vite
 └── README.md                     # Este arquivo
-
+```
 
 ---
 
