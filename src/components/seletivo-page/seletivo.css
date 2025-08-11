@@ -134,3 +134,52 @@
         max-width: 300px;
     }
 }
+
+.selective-process-updates {
+  margin-top: 50px;
+  background-color: #f8f9fa; /* Cor de fundo clara para o quadro */
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e0eaff; /* Borda sutil para definir o contorno */
+  /* NOVO: Sombra para criar o efeito de profundidade */
+  box-shadow: 0 10px 20px rgba(0, 21, 74, 0.2); 
+  text-align: left;
+  transition: transform 0.3s ease; /* Adiciona uma transição para o hover */
+}
+
+/* Opcional: Efeito de "levantar" o card ao passar o mouse */
+.selective-process-updates:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 21, 74, 0.3);
+}
+
+.updates-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00205b;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.updates-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.update-item {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+  padding: 10px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.update-item:last-child {
+  border-bottom: none;
+}
+
+.update-date {
+  font-weight: bold;
+  color: #00205b;
+}

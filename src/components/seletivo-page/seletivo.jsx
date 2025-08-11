@@ -5,9 +5,13 @@ import './seletivo.css';
 import { handleAnimationAndAction } from '../utils/animation-handler';
 import { useNavigate } from 'react-router-dom';
 
+const updates = [
+  { date: '11/08', time: '10:00', text: 'Processo Seletivo Iniciado!' },
+];
+
 const seletivo = () => {
-  const inscriptionLink = "https://forms.gle/2bmosPNKtzEshQQS9"; // Link de Inscrição (Placeholder)
-  const editalLink = "https://drive.google.com/file/d/1OH65NQcs6KkRVW5O_A9kRWkT2cSM5wxO/view?usp=sharing";       // Link do Edital (Placeholder)
+  const inscriptionLink = "https://forms.gle/2bmosPNKtzEshQQS9";
+  const editalLink = "https://drive.google.com/file/d/1OH65NQcs6KkRVW5O_A9kRWkT2cSM5wxO/view?usp=sharing";
   const navigate = useNavigate();
 
   const handleInscriptionClick = (e) => {
@@ -46,6 +50,19 @@ const seletivo = () => {
             <span className="button-text">EDITAL MAIS RECENTE</span>
           </button>
         </div>
+        
+        {/* NOVO: Quadro de atualizações */}
+        <div className="selective-process-updates">
+          <h3 className="updates-title">Atualizações Recentes - PS 2025.2</h3>
+          <ul className="updates-list">
+            {updates.map((update, index) => (
+              <li key={index} className="update-item">
+                <span className="update-date">{update.date} - {update.time}:</span> {update.text}
+              </li>
+            ))}
+          </ul>
+        </div>
+        
       </div>
     </section>
   );
