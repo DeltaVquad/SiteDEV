@@ -26,9 +26,9 @@ const Hero = () => {
             IMPULSIONADOS PELA INOVAÇÃO. <br/> MOVIDOS POR DESAFIOS.
           </h1>
           <p className="text-lg mb-6 max-w-xl">
-            Diretamente da POLI/UPE, desenvolvemos drones autônomos que unem pesquisa, 
-            inovação e engenharia aplicada, uma jornada acadêmica que desafia limites
-            e levanta voo com propósito.
+            Conheça a equipe que, em apenas 118 dias, projetou, construiu, testou e colocou 
+            em voo um drone autônomo totalmente funcional. 
+            Uma prova de engenharia, inovação e trabalho em equipe que saiu do papel e ganhou os céus.
           </p>
           
           <button className="hero-button" onClick={(e) => handleAnimationAndAction(e, scrollToIntro)}>
