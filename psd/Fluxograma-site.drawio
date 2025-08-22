@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.0.7">
   <diagram name="Página-1" id="K1qepTPjJjgaVP6IwlEX">
-    <mxGraphModel dx="1861" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2043" dy="671" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,7 +112,7 @@
         <mxCell id="Ic7dpF7SIQI6bduzyor9-3" value="&lt;font&gt;Líder Operacional&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Sansation;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSansation;fontStyle=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#00205B;strokeColor=none;gradientColor=none;fontColor=#FFFFFF;shadow=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="458" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ic7dpF7SIQI6bduzyor9-38" value="&lt;div&gt;&lt;font&gt;Conselheiro&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;e Orientador&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Sansation;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSansation;fontStyle=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#FFFFFF;resizable=1;fillColor=#00205B;gradientColor=none;shadow=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="Ic7dpF7SIQI6bduzyor9-38" value="Orientadores" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Sansation;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSansation;fontStyle=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#FFFFFF;resizable=1;fillColor=#00205B;gradientColor=none;shadow=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="58" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ic7dpF7SIQI6bduzyor9-39" value="&lt;font&gt;Capitão&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Sansation;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSansation;fontStyle=1;align=center;verticalAlign=middle;fontSize=15;fontColor=#FFFFFF;resizable=1;fillColor=#00205B;gradientColor=none;shadow=1;strokeColor=none;" parent="1" vertex="1">

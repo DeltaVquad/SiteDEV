@@ -7,6 +7,8 @@ import { useNavigate } from 'react-router-dom';
 
 const updates = [
   { date: '11/08', time: '10:00', text: 'Processo Seletivo Iniciado!' },
+  { date: '21/08', time: '23:59', text: 'Inscrições Encerradas.' },
+  { date: '25/08', time: '10:00', text: 'Etapa de entrevistas Iniciadas.' }
 ];
 
 const seletivo = () => {

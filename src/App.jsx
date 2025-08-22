@@ -21,7 +21,7 @@ import Projetos from './components/projetos-page/projetos.jsx';
 import Competicoes from './components/competicoes-page/competicoes.jsx';
 import Sobre from './components/sobre-page/sobre.jsx';
 
-const isPopupEnabled = true;
+const isPopupEnabled = false;
 
 function App() {
   // Data de lançamento do site IMPORTANTE!!!!!

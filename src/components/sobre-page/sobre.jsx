@@ -18,7 +18,7 @@ import jp from '../../assets/sobre-page/membros/jp.webp';
 
 const teamMembers = [
   { name: 'George Azevedo', role: 'Orientador/Coordenador', photo: george },
-  { name: 'Angel Ayala', role: 'Conselheiro', photo: angel },
+  { name: 'Angel Ayala', role: 'Coorientador', photo: angel },
   { name: 'Carolyne Almeida', role: 'Capitã', photo: carol },
   { name: 'Eliton Sena', role: 'Líder Operacional\nLíder de Sensores & Navegação', photo: eliton },
   { name: 'Ana Beatriz', role: 'Líder de Visão Computacional', photo: benny },
