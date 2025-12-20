@@ -38,7 +38,7 @@ const teamMembers = [
   { name: 'Eliton Sena', role: 'Líder Operacional\nLíder de Sensores & Navegação', photo: eliton },
   { name: 'Ana Beatriz', role: 'Líder de Visão Computacional', photo: benny },
   { name: 'Pedro Gabriel', role: 'Líder de Controle & Simulação', photo: pedro },
-  { name: 'Luiz Arthur', role: 'Líder de Estruturas & Desempenho', photo: arthur },
+  { name: 'Arthur Souza', role: 'Líder de Estruturas & Desempenho', photo: arthur },
   { name: 'Gilvan Neto', role: 'Líder de Sistemas Embarcados', photo: gilvan },
 
   // Membros

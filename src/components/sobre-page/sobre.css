@@ -173,7 +173,18 @@
     color: #5f6c7b;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 800px) {
+    
+    .members-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 15px; /* Espaço menor entre os cards */
+    }
+
+    .member-role {
+    font-size: 0.8rem;
+    color: #5f6c7b;
+    }   
+
     .sobre-section {
         padding: 120px 25px 60px 25px;
     }
