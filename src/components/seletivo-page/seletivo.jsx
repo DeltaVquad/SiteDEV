@@ -52,9 +52,7 @@ const seletivo = () => {
             <span className="button-text">EDITAL MAIS RECENTE</span>
           </button>
         </div>
-        
-        {/* NOVO: Quadro de atualizações */}
-        <div className="selective-process-updates">
+        {/*<div className="selective-process-updates">
           <h3 className="updates-title">Atualizações Recentes - PS 2025.2</h3>
           <ul className="updates-list">
             {updates.map((update, index) => (
@@ -63,8 +61,7 @@ const seletivo = () => {
               </li>
             ))}
           </ul>
-        </div>
-        
+        </div>*/}
       </div>
     </section>
   );

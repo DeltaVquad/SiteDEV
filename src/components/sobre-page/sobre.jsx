@@ -5,7 +5,7 @@ import { handleAnimationAndAction } from '../utils/animation-handler';
 import teamImage from '../../assets/sobre-page/sobre.webp';
 import fluxogramaImage from '../../assets/sobre-page/fluxograma.webp';
 
-// Foto dos membros
+// Capitania
 import angel from '../../assets/sobre-page/membros/angel.webp';
 import george from '../../assets/sobre-page/membros/george.webp';
 import carol from '../../assets/sobre-page/membros/carol.webp';
@@ -14,9 +14,24 @@ import arthur from '../../assets/sobre-page/membros/arthur.webp';
 import benny from '../../assets/sobre-page/membros/benny.webp';
 import gilvan from '../../assets/sobre-page/membros/gilvan.webp';
 import pedro from '../../assets/sobre-page/membros/pedro.webp';
+// Membros
+import amanda from '../../assets/sobre-page/membros/amanda.webp';
+import bruna from '../../assets/sobre-page/membros/bruna.webp';
+import danielle from '../../assets/sobre-page/membros/danielle.webp';
+import fernanda from '../../assets/sobre-page/membros/fernanda.webp';
+import gabriel from '../../assets/sobre-page/membros/gabriel.webp';
+import isabella from '../../assets/sobre-page/membros/isabella.webp';
 import jp from '../../assets/sobre-page/membros/jp.webp';
+import leo from '../../assets/sobre-page/membros/leo.webp';
+import leonardo from '../../assets/sobre-page/membros/leonardo.webp';
+import luana from '../../assets/sobre-page/membros/luana.webp';
+import lucas from '../../assets/sobre-page/membros/lucas.webp';
+import soares from '../../assets/sobre-page/membros/soares.webp';
+import thiago from '../../assets/sobre-page/membros/thiago.webp';
+import victor from '../../assets/sobre-page/membros/victor.webp';
 
 const teamMembers = [
+  // Capitania
   { name: 'George Azevedo', role: 'Orientador/Coordenador', photo: george },
   { name: 'Angel Ayala', role: 'Coorientador', photo: angel },
   { name: 'Carolyne Almeida', role: 'Capitã', photo: carol },
@@ -25,7 +40,22 @@ const teamMembers = [
   { name: 'Pedro Gabriel', role: 'Líder de Controle & Simulação', photo: pedro },
   { name: 'Luiz Arthur', role: 'Líder de Estruturas & Desempenho', photo: arthur },
   { name: 'Gilvan Ramos', role: 'Líder de Sistemas Embarcados', photo: gilvan },
+
+  // Membros
+  { name: 'Amanda Gabriellen', role: 'Membro de Controle & Simulação', photo: amanda },
+  { name: 'Arthur Gabriel', role: 'Membro de Visão Computacional', photo: gabriel },
+  { name: 'Arthur Soares', role: 'Membro de Estruturas & Desempenho', photo: soares },
+  { name: 'Bruna Letícia', role: 'Membro de Estruturas & Desempenho', photo: bruna },
+  { name: 'Danielle Stephany', role: 'Membro de Visão Computacional', photo: danielle },
+  { name: 'Fernanda Paoleschi', role: 'Membro de Visão Computacional', photo: fernanda },
+  { name: 'Isabella Vitória ', role: 'Membro de Visão Computacional', photo: isabella },
   { name: 'João Pedro', role: 'Membro de Estruturas & Desempenho', photo: jp },
+  { name: 'Leo Bizzocchi ', role: 'Membro de Visão Computacional', photo: leo },
+  { name: 'Leonardo Henrique', role: 'Membro de Controle & Simulação', photo: leonardo },
+  { name: 'Luana Almeida', role: 'Membro de Sistemas Embarcados', photo: luana },
+  { name: 'Lucas Chaves', role: 'Membro de Sistemas Embarcados', photo: lucas },
+  { name: 'Thiago Cavalcanti', role: 'Membro de Visão Computacional', photo: thiago },
+  { name: 'Victor Pinheiro', role: 'Membro de Sistemas Embarcados', photo: victor },
 ];
 
 const Sobre = () => {

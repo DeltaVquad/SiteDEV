@@ -5,14 +5,16 @@ import { useNavigate } from 'react-router-dom';
 import './exposicoes.css';
 import { handleAnimationAndAction } from '../utils/animation-handler';
 
-// Importando as imagens placeholder
+// Importando as imagens
 import fotoETEPAM1 from '../../assets/exposicoes-page/ETEPAM/ete1.webp';
 import fotoETEPAM2 from '../../assets/exposicoes-page/ETEPAM/ete2.webp';
 import fotoETEPAM3 from '../../assets/exposicoes-page/ETEPAM/ete3.webp';
 import fotoIFPE1 from '../../assets/exposicoes-page/IFPE/ifpe1.webp';
 import fotoIFPE2 from '../../assets/exposicoes-page/IFPE/ifpe2.webp';
 import fotoIFPE3 from '../../assets/exposicoes-page/IFPE/ifpe3.webp';
-
+import fotoSU20251 from '../../assets/exposicoes-page/SU2025/SU1.webp';
+import fotoSU20252 from '../../assets/exposicoes-page/SU2025/SU2.webp';
+import fotoSU20253 from '../../assets/exposicoes-page/SU2025/SU3.webp';
 
 const Exposicoes = () => {
   const navigate = useNavigate();
@@ -22,6 +24,15 @@ const Exposicoes = () => {
   };
 
   const visitas = [
+    {
+      local: "Semana Universitária da POLI-UPE 2025",
+      descricao: "Durante a Semana Universitária da POLI-UPE em 2025, tivemos a honra de apresentar nossos drones e competições, além de compartilhar nossa paixão por tecnologia e inovação com a comunidade acadêmica. Foi uma oportunidade incrível para inspirar os entusiastas da tecnologia, mostrando como a engenharia pode transformar ideias em realidade.",
+      fotos: [
+        fotoSU20251,
+        fotoSU20252,
+        fotoSU20253,
+      ]
+    },
     {
       local: "IFPE Campus Recife (Instituto Federal de Pernambuco)",
       descricao: "No dia 8 de julho, nossa equipe teve a oportunidade de conhecer os estudantes do primeiro período do curso técnico em Mecânica do IFPE Campus Recife. A visita foi uma excelente oportunidade para mostrar como a teoria se aplica na prática, além de inspirar os alunos com as possibilidades que a engenharia e a tecnologia oferecem.",
@@ -47,7 +58,7 @@ const Exposicoes = () => {
       <div className="exposicoes-container">
         <div className="exposicoes-header">
           <h1 className="exposicoes-title">Nossas Exposições</h1>
-          <p className="exposicoes-subtitle">
+          <p className="exposicoes-SU2025btitle">
             Acreditamos que a engenharia tem o poder de transformar o futuro. Por isso, a DeltaV leva
             a nossa paixão por drones e tecnologia a escolas e eventos. Nosso objetivo é fomentar
             novas mentes, despertar a curiosidade em jovens e mostrar na prática como a inovação
@@ -77,8 +88,8 @@ const Exposicoes = () => {
 
         <div className="exposicoes-cta">
           {/* FRASE ATUALIZADA */}
-          <h2>Leve a DeltaV para sua escola ou evento.</h2>
-          <p>Leve nossa equipe para sua instituição. Será um prazer compartilhar conhecimento e inspirar futuros talentos!</p>
+          <h2>Leve a DeltaV para SU2025a escola ou evento.</h2>
+          <p>Leve nossa equipe para SU2025a instituição. Será um prazer compartilhar conhecimento e inspirar futuros talentos!</p>
           <button onClick={handleContactClick} className="cta-button">
             <span className="button-text">Fale Conosco</span>
           </button>
