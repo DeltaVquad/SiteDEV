@@ -26,7 +26,7 @@ const Exposicoes = () => {
   const visitas = [
     {
       local: "Semana Universitária da POLI-UPE 2025",
-      descricao: "Durante a Semana Universitária da POLI-UPE em 2025, tivemos a honra de apresentar nossos drones e competições, além de compartilhar nossa paixão por tecnologia e inovação com a comunidade acadêmica. Foi uma oportunidade incrível para inspirar os entusiastas da tecnologia, mostrando como a engenharia pode transformar ideias em realidade.",
+      descricao: "A Semana Universitária da POLI-UPE 2025 marcou a primeira exposição oficial dos nossos novos integrantes, que conduziram as apresentações com notável competência e profissionalismo. Além de engajar a comunidade acadêmica com nossos drones, a equipe demonstrou alto desempenho técnico ao desenvolver, simultaneamente ao evento, uma solução integrada de software e hardware para um desafio interno proposto pela liderança, reafirmando o compromisso do grupo com a excelência na engenharia.",
       fotos: [
         fotoSU20251,
         fotoSU20252,

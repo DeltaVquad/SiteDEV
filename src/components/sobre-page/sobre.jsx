@@ -39,7 +39,7 @@ const teamMembers = [
   { name: 'Ana Beatriz', role: 'Líder de Visão Computacional', photo: benny },
   { name: 'Pedro Gabriel', role: 'Líder de Controle & Simulação', photo: pedro },
   { name: 'Luiz Arthur', role: 'Líder de Estruturas & Desempenho', photo: arthur },
-  { name: 'Gilvan Ramos', role: 'Líder de Sistemas Embarcados', photo: gilvan },
+  { name: 'Gilvan Neto', role: 'Líder de Sistemas Embarcados', photo: gilvan },
 
   // Membros
   { name: 'Amanda Gabriellen', role: 'Membro de Controle & Simulação', photo: amanda },
