@@ -58,7 +58,7 @@ const Exposicoes = () => {
       <div className="exposicoes-container">
         <div className="exposicoes-header">
           <h1 className="exposicoes-title">Nossas Exposições</h1>
-          <p className="exposicoes-SU2025btitle">
+          <p className="exposicoes-subtitle">
             Acreditamos que a engenharia tem o poder de transformar o futuro. Por isso, a DeltaV leva
             a nossa paixão por drones e tecnologia a escolas e eventos. Nosso objetivo é fomentar
             novas mentes, despertar a curiosidade em jovens e mostrar na prática como a inovação
@@ -88,8 +88,8 @@ const Exposicoes = () => {
 
         <div className="exposicoes-cta">
           {/* FRASE ATUALIZADA */}
-          <h2>Leve a DeltaV para SU2025a escola ou evento.</h2>
-          <p>Leve nossa equipe para SU2025a instituição. Será um prazer compartilhar conhecimento e inspirar futuros talentos!</p>
+          <h2>Leve a DeltaV para sua escola ou evento.</h2>
+          <p>Leve nossa equipe para sua instituição. Será um prazer compartilhar conhecimento e inspirar futuros talentos!</p>
           <button onClick={handleContactClick} className="cta-button">
             <span className="button-text">Fale Conosco</span>
           </button>
